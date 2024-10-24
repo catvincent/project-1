@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Le Ch&eacute;teau Bienvenue</title>
+  <!--  bibliothèque d'icônes gratuite en ligne -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/websiteStyles.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">
+</div>
+
+<a href="home.html" style="float: left"><img src="images/logo.JPG" with="100" height="100"></a>
+
+<div class="navbar">
+  
+  <a href="mission.html">Notre mission</a>
+  <a href="values.html">Nos valeurs</a>
+  <div class="dropdown">
+    <button class="dropbtn">Notre offre
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="gamme.html">Ev&eacute;nements</a>
+      <a href="services.html">Services</a>
+      <a href="housing.html">H&eacute;bergements</a>
+    </div>
+  </div> 
+  <a href="photos.html">Galerie photos</a>
+  <a href="contact.html">Nous contacter</a>
+</div>
+
+<div class="address">
+  <img src="images/icone_localisation.PNG">Ch&acirc;teau Bienvenue - Chemin des m&eacute;sanges - 95590 Nointel - Val d'Oise
+</div>
+
+<div class="content">
+  <p class="welcomeText">
+Nous contacter
+  </p>
+  <form action="https://hnitest.go.yj.fr" method="post"> 
+  <p class="formLign">
+      <label for="lastname">Nom :</label>&nbsp;
+      <input id="lastname" type="text" name="lastname">
+  </p>
+  <p class="formLign">
+      <label for="firstname">Pr&eacute;nom :</label>&nbsp;
+      <input id="firstname" type="text" name="firstname">
+  </p>
+  <p class="formLign">
+      <label for="mail">Email :</label>&nbsp;
+      <input id="mail" type="email" name="email" placeholder="votreemail@exemple.com">
+  </p>
+  <p class="formLign">
+      <label for="request">Votre message :</label>&nbsp;
+     <textarea name="request" id="request" cols="55" rows="8" placeholder="Que pouvons-nous pour vous ?"></textarea>
+  </p>
+  <p class="formLign">
+    <label for="country">Pays :</label>&nbsp;
+     <select name="country" id="country">
+       <option value="AL">Allemagne</option>
+       <option value="DN">Danemark</option>
+       <option value="ES">Espagne</option>
+       <option value="FR">France</option>
+       <option value="GB">Grande Bretagne</option>
+       <option value="IT">Italie</option>
+       <option value="PT">Portugal</option>
+       <option value="SU">Su&egrave;de</option>
+     </select>
+  </p>
+  <p class="formLign">
+    <input type="submit" value="Envoyer"><br><br>
+  </p>
+ </form>
+ <br>
+ <img src="images/chateau.JPG"> 
+</div>
+
+<div class="footer">
+&#169; Copyright 2024 – Tous droits r&eacute;serv&eacute;s
+</div>
+
+</div>
+
+</body>
+</html>
